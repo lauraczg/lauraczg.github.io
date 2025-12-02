@@ -1,147 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Predicción de Parto Pretérmino</title>
+<meta charset="UTF-8">
+<title>Portafolio - Laura C. Zúñiga García</title>
 
-    <style>
-        body {
-            font-family: 'Inter', Arial, sans-serif;
-            background-color: #f5f7fa;
-            margin: 0;
-            padding: 0;
-        }
+<style>
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    padding: 20px;
+    color: #333;
+  }
 
-        .header {
-            background-color: #005B96;
-            color: white;
-            padding: 40px;
-            text-align: center;
-        }
+  .name-banner {
+    background-color: #FFE6F2; /* rosa claro */
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3a2b35;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
 
-        .container {
-            max-width: 900px;
-            background: white;
-            padding: 40px;
-            margin: 40px auto;
-            border-radius: 15px;
-            box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
-        }
+  h2 {
+    margin-top: 32px;
+    color: #333;
+  }
 
-        h1, h2 {
-            color: #005B96;
-        }
+  a {
+    color: #b4006b;
+    font-weight: 600;
+    text-decoration: none;
+  }
 
-        .btn {
-            display: inline-block;
-            padding: 12px 22px;
-            background-color: #E91E63;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
+  a:hover {
+    text-decoration: underline;
+  }
 
-        .btn:hover {
-            background-color: #C2185B;
-        }
-
-        ul {
-            line-height: 1.6;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 25px;
-            background-color: #eaeaea;
-            margin-top: 40px;
-            font-size: 14px;
-            color: #333;
-        }
-    </style>
-
-    <!-- Fuente Inter -->
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap">
-
+  .section {
+    margin-bottom: 24px;
+  }
+</style>
 </head>
+
 <body>
 
-    <div class="header">
-        <h1>Herramienta de Predicción de Parto Pretérmino</h1>
-        <p>Estimación temprana del riesgo basada en biomarcadores maternos del primer trimestre</p>
-    </div>
+<!-- NOMBRE CON FONDO ROSA CLARO -->
+<div class="name-banner">Laura C. Zúñiga García</div>
 
-    <div class="container">
+<!-- PORTAFOLIO -->
+<h2>📁 Portafolio</h2>
 
-        <h2>Descripción general</h2>
-        <p>
-            Esta herramienta interactiva estima el <strong>riesgo individual de parto pretérmino</strong> mediante un 
-            modelo logístico desarrollado a partir de factores clínicos maternos, el 
-            <strong>Índice de Consistencia Cervical (CCI)</strong> y los niveles sanguíneos del 
-            <strong>Factor H del complemento</strong> en el primer trimestre del embarazo.
-        </p>
-        <p>
-            El modelo integra variables clínicas y biomarcadores con potencial predictivo, permitiendo 
-            una aproximación temprana al riesgo de parto pretérmino y contribuyendo a la toma de decisiones 
-            en medicina materno-fetal.
-        </p>
+<div class="section">
+  <h3>Modelización de la dinámica del virus Chikungunya en Bucaramanga (Santander) mediante series de tiempo</h3>
+  <p><strong>Descripción:</strong> A partir de los datos del Sistema de Vigilancia en Salud Pública (SIVIGILA), se modeló la dinámica de los casos confirmados y su variabilidad, evaluando la influencia potencial de factores climáticos mediante un enfoque de series de tiempo con regresión dinámica.</p>
+  <p><strong>Herramientas utilizadas:</strong> R, RStudio, dplyr, forecast, tseries, zoo, TSA.</p>
+  <p><a href="https://github.com/lauraczg/Series-de-tiempo/blob/main/ChikV2.0.Rmd">Enlace al proyecto</a></p>
+</div>
 
-        <h2>Acceder a la aplicación</h2>
-        <p>Haz clic en el siguiente enlace para ingresar a la aplicación Shiny:</p>
+<div class="section">
+  <h3>Herramienta de estimación del riesgo de parto prétermino mediante una aplicación web Shiny</h3>
+  <p><strong>Descripción:</strong> Desarrollo de un modelo logístico basado en factores clínicos maternos, el índice de consistencia cervical y los niveles sanguíneos del factor H del complemento, implementado en una aplicación web Shiny.</p>
+  <p><strong>Herramientas utilizadas:</strong> R, RStudio, shiny, tidyverse, bslib, flexdashboard.</p>
+</div>
 
-        <a class="btn" href="https://lauraczg.shinyapps.io/partoapp-1/" target="_blank">
-            Ingresar a la aplicación
-        </a>
+<!-- PUBLICACIONES -->
+<h2>📚 Publicaciones y presentaciones</h2>
 
-        <h2>Perfil profesional</h2>
-        <p>
-            <strong>Dr. Carlos Hernán Becerra Mojica</strong><br>
-            Especialista en Ginecología y Obstetricia con enfoque en Medicina Materno-Fetal, 
-            docente del Departamento de Ginecología y Obstetricia de la Universidad Industrial de 
-            Santander desde 1996.  
-        </p>
+<div class="section">
+  <p><strong>Análisis de un hospital de primer nivel posterior a la emergencia sanitaria: reorganización y toma de decisiones</strong><br>
+  Adrián Ortíz, <strong>Laura Zúñiga</strong>, Luisa Pérez, Laura Pinto<br>
+  <em>VI Congreso Internacional de Enfermería y Salud</em>, Santa Marta, Colombia, 2022.</p>
+</div>
 
-        <p>
-            Líder del grupo de investigación <strong>GINO</strong>, reconocido categoría C por Minciencias.  
-            Ha sido pionero en el desarrollo de la unidad materno-fetal del Hospital Universitario de Santander 
-            y en la introducción de la cirugía fetal en Colombia.  
-        </p>
+<div class="section">
+  <p><strong>Evolución molecular de la hormona adipocinética de insectos como base en el modelo de pérdida de ADN respecto a invertebrados y vertebrados</strong><br>
+  Cristian Cadena, <strong>Laura Zúñiga</strong>, Raul Pérez, Laura Jimenez, Carlos Barrios, Francisco Martínez<br>
+  <em>IV Seminario de Biodiversidad y Conservación de Especies Amenazadas</em>, Bucaramanga, Colombia, 2019.</p>
+</div>
 
-        <p>
-            Actualmente realiza su <strong>doctorado en Ciencias Biomédicas</strong> en la Universidad Industrial de 
-            Santander, con una línea de investigación enfocada en la predicción temprana del parto pretérmino, 
-            un área de alta relevancia para la salud materno-infantil.
-        </p>
+<!-- EDUCACIÓN -->
+<h2>🎓 Educación</h2>
 
-        <h2>Referencias bibliográficas</h2>
-        <ul>
-            <li>
-                Becerra, C., Mora, E., Parra, M., Martinez, R., Diaz, L.A., Torres, J., & Rincon, B. (2024).  
-                <em>Low levels of complement factor H in the first trimester of pregnancy are associated with 
-                spontaneous preterm birth.</em> International Journal of Molecular Sciences, 25(19).  
-                Disponible en: https://www.mdpi.com/1422-0067/25/19/10549
-            </li>
-            <br>
-            <li>
-                Becerra, C., Parra, M., Martinez, R., Diaz, L.A., Martinez, R., Torres, J., & Rincon, B. (2024).  
-                <em>Performance of the first-trimester cervical consistency index to predict preterm birth.</em>  
-                Journal of Clinical Medicine, 13.  
-                Disponible en: https://www.mdpi.com/2077-0383/13/13/3906
-            </li>
-        </ul>
+<div class="section">
+  <p><strong>Matemática</strong> — Universidad Industrial de Santander  
+  <br>Promedio académico: <strong>3.91/5.0</strong>  
+  <br>Fecha de graduación prevista: <strong>Septiembre 2025</strong></p>
+</div>
 
-        <h2>Contacto</h2>
-        <p>
-            <strong>Correo:</strong> chbecerra@hotmail.com  
-        </p>
+<div class="section">
+  <p><strong>Formación complementaria</strong></p>
+  <ul>
+    <li><strong>Diplomado en Vigilancia Epidemiológica</strong>, Politécnico de Suramericana</li>
+    <li><strong>Essential Epidemiologic Tools for Public Health</strong>, Johns Hopkins University (Coursera)</li>
+    <li><strong>Curso de Desarrollo de Habilidades Lectoras</strong>, Léctimus</li>
+  </ul>
+</div>
 
-    </div>
+<!-- CONTACTO -->
+<h2>📫 Contacto</h2>
 
-    <div class="footer">
-        © 2025 – Herramienta de Predicción de Parto Pretérmino. Desarrollada con fines académicos y de investigación.
-    </div>
+<p>Para consultas, oportunidades profesionales y proyectos de colaboración:</p>
+<ul>
+  <li><strong>Correo:</strong> lauce.zuniga@gmail.com</li>
+  <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lauraczg/">https://www.linkedin.com/in/lauraczg/</a></li>
+</ul>
 
 </body>
 </html>
+
