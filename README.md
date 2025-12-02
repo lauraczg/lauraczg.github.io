@@ -9,6 +9,7 @@
 **Herramienta para la estimación del riesgo de parto prétermino mediante una aplicación web shiny**
 - **Descripción:** mediante un modelo logístico basado en factores clínicos maternos, el índice de consistencia cervical y los niveles sanguíneos del factor H del complemento.
 - **Herramientas utilizadas:** R, Rstudio, shiny, tidyverse, bslib, flexdashboard.
+- [Enlace al proyecto](https://lauraczg.shinyapps.io/partoapp-1/)
 
 ## Publicaciones y presentaciones
 **Análisis de un hospital de primer nivel posterior a la emergencia sanitaria: reorganización y toma de decisiones**  
